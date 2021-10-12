@@ -1,4 +1,5 @@
 let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
 let count = 0;
 
 // Function that increments count once button is clicked
@@ -8,12 +9,16 @@ function increment() {
 }
 increment();
 
-// Function to display the value of count
+// Function to display the value of count and previous entries
 function save() {
-  console.log(count);
+  let savedMessage = `${count} - `;
+  saveEl.innerText += savedMessage;
+  countEl.innerHTML = 0;
+  count = 0;
 }
-let username = "Amaka";
-let message = "You have three new notifications";
-
-let answer = `Hi ${username}, ${message}.`;
-console.log(answer);
+// Function to reset counter
+// function reset() {
+//   let resume = 0;
+//   countEl.innerHTML = resume;
+//   console.log(resume);
+// }

@@ -54,3 +54,10 @@ button,
   height: 50px;
   border-radius: 15px;
 }
+
+p {
+  text-align: center;
+  color: rgb(228, 232, 238);
+  font-size: 30px;
+  margin-left: 96px;
+}
