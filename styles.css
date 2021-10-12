@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/busystreet.jpg");
+  background-image: url("/passenger-counter-app/images/busystreet.jpg");
   background-size: cover;
   max-width: 1000px;
 }
@@ -7,13 +7,15 @@ body {
 h1 {
   text-align: center;
   color: #fff;
+  font-family: sans-serif;
+  font-weight: 900;
   margin-top: 180px;
   margin-left: 246px;
 }
 
 h2 {
   text-align: center;
-  color: #fff;
+  color: rgb(88, 102, 122);
   font-size: 60px;
   margin-left: 273px;
 }
@@ -45,7 +47,7 @@ button,
   padding-top: 10px;
   padding-bottom: 10px;
   background: rgb(48, 190, 84);
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: large;
   width: 200px;
